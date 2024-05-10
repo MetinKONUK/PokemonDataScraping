@@ -1,26 +1,30 @@
 {
-  "name": "pokemondatascraping",
-  "version": "0.0.1",
-  "description": "Scripts to scrape Pokemon related data from web.",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MetinKONUK/PokemonDataScraping.git"
-  },
-  "keywords": [
-    "pokemon",
-    "data",
-    "scraping",
-    "web-scraping",
-    "data-extraction"
-  ],
-  "author": "metinkonuk",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MetinKONUK/PokemonDataScraping/issues"
-  },
-  "homepage": "https://github.com/MetinKONUK/PokemonDataScraping#readme"
+	"name": "pokemondatascraping",
+	"version": "0.0.1",
+	"description": "Scripts to scrape Pokemon related data from web.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "npm run test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MetinKONUK/PokemonDataScraping.git"
+	},
+	"keywords": [
+		"pokemon",
+		"data",
+		"scraping",
+		"web-scraping",
+		"data-extraction"
+	],
+	"author": "metinkonuk",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/MetinKONUK/PokemonDataScraping/issues"
+	},
+	"homepage": "https://github.com/MetinKONUK/PokemonDataScraping#readme",
+	"dependencies": {
+		"puppeteer": "^22.8.0"
+	}
 }
